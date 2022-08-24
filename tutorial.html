@@ -6,10 +6,11 @@
         .top{
            text-align: center;
         }
-        table tr th{
+        table, tr, th, td {
             border: 1px solid black;
+            text-align: center;
         }
-    
+
     </style>
 
 </head>
@@ -27,16 +28,59 @@
 
         <article>
             <table>
-                <tr><th>Information Systems - Lab Work 16</th></tr>
-                
-                <tr colspan="2">
+                <tr><th colspan="2">Information Systems - Lab Work 16</th></tr>
+                <tr>
+                <th>Article 1</th>
+                <th>Article 2</th>
+                </tr>
+
+                <tr>
+                    <td>Hello!World! This is test for article 1</td>
+                    <td>Hello!world! This is test for article 1</td>
+                </tr>
+
+                <tr>
+                  <td>Ordered List</td>
+                    <td>Unordered List</td>
+                </tr>
+
+                <tr id="4">
                     <td>
-                    <td>Article 1</td>
-                    <br>
-                    <td>Hello world! This is text for article 1.</td>
+                    <ol type="a">
+                        <li>Item1</li>
+                        <li>Item2</li>  
+                        <li>Item3</li>
+                            <ol type="i">
+                            <li>Item1</li>
+                            <li>Item2</li>
+                            <li>Item3</li>
+                            </ol>
+                        <li>Item4</li>
+                    </ol>
+                    </td>
+
+
+                    <td>
+                    <ul>
+                        <li>Item1</li>
+                        <li>Item2</li>  
+                        <li>Item3</li>
+                            <ul type="circle">
+                            <li>Item1</li>
+                            <li>Item2</li>
+                            <li>Item3</li>
+                            </ul>
+                        <li>Item4</li>
+                    </ul>
                     </td>
                 </tr>
 
+                <tr>
+
+                </tr>
+
+
+             
             </table>
         </article>
     </section>
